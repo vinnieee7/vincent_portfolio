@@ -12,6 +12,7 @@ export default defineConfig({
     // nitro/vite builds from this
     server: { entry: "server" },
   },
+  nitro: true,
   vite: {
     optimizeDeps: {
       include: ["three", "@react-three/fiber", "@react-three/drei", "framer-motion", "lenis"],
