@@ -12,7 +12,16 @@ export default defineConfig({
     // nitro/vite builds from this
     server: { entry: "server" },
   },
-  nitro: true,
+  nitro: {
+    prerender: {
+      crawlLinks: true,
+      routes: ["/", "/sitemap.xml", "/robots.txt"],
+    },
+    output: {
+      dir: ".output",
+      publicDir: "public",
+    },
+  },
   vite: {
     optimizeDeps: {
       include: ["three", "@react-three/fiber", "@react-three/drei", "framer-motion", "lenis"],
