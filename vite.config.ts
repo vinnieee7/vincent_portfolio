@@ -21,6 +21,7 @@ export default defineConfig({
       dir: ".output",
       publicDir: "public",
     },
+    preset: "vercel",
   },
   vite: {
     optimizeDeps: {
