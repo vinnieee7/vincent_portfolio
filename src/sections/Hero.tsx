@@ -1,7 +1,7 @@
 import { motion, useMotionValue, useSpring, useTransform } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 
-const TYPED = "Good morning. Your encrypted session is ready. Initializing secure shell...";
+const TYPED = "Your encrypted session is ready. Initializing secure shell...";
 
 function Typewriter() {
   const [i, setI] = useState(0);
