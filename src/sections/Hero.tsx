@@ -99,9 +99,8 @@ export function Hero() {
             transition={{ delay: 0.25, duration: 0.7 }}
             className="mt-8 max-w-md text-[17px] leading-[1.65] text-muted-foreground"
           >
-            Not a figment of your imagination. Vincent designs secure systems,
-            audits networks, and ships software that thinks ahead. The future of
-            personal computing is here. And it boots from your terminal.
+              I am Vincent, a cybersecurity student who enjoys building secure tools,
+              learning how systems break, and turning ideas into working software.
           </motion.p>
 
           <motion.div
