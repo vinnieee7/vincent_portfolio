@@ -18,8 +18,8 @@ export default defineConfig({
       routes: ["/", "/sitemap.xml", "/robots.txt"],
     },
     output: {
-      dir: ".output",
-      publicDir: "public",
+      dir: ".vercel/output",
+      publicDir: ".vercel/output/static",
     },
     preset: "vercel",
   },
